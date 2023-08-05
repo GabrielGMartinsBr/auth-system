@@ -1,12 +1,13 @@
 import { UserAccountSummary } from '../Account';
 
-export interface PasswordResetSuccessResponse {
+export interface PassResetConfirmSuccessResponse {
     success: true;
     message: string;
     user: UserAccountSummary;
+    token: string;
 }
 
-export interface PasswordResetErrorResponse {
+export interface PassResetConfirmErrorResponse {
     success: false;
     message: string;
     error: {
@@ -15,5 +16,5 @@ export interface PasswordResetErrorResponse {
     }
 }
 
-export type PasswordResetResponse = PasswordResetSuccessResponse
-    | PasswordResetErrorResponse;
+export type PassResetConfirmResponse = PassResetConfirmSuccessResponse
+    | PassResetConfirmErrorResponse;
