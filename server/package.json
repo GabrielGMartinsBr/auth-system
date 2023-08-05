@@ -1,0 +1,28 @@
+{
+  "name": "@auth/server",
+  "version": "0.1.0",
+  "description": "Auth System Server",
+  "main": "dist/server.js",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "build": "tsup src",
+    "dev": "tsx watch src/server.ts",
+    "start": "node .",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Gabriel G. Martins",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@vitest/ui": "^0.34.1",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
+  }
+}

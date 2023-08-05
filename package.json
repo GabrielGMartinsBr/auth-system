@@ -1,7 +1,15 @@
 {
-    "name": "react-node-mongodb-auth",
+    "name": "auth",
     "description": "A authentication system built with React, Node.js, and MongoDB.",
     "private": true,
+    "workspaces": [
+        "./common",
+        "./server"
+    ],
+    "engines": {
+        "node": ">=18.12.1"
+    },
+    "packageManager": "pnpm@8.6.11",
     "author": "Gabriel G. Martins",
     "license": "MIT"
 }
