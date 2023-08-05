@@ -1,0 +1,7 @@
+{
+    "name": "react-node-mongodb-auth",
+    "description": "A authentication system built with React, Node.js, and MongoDB.",
+    "private": true,
+    "author": "Gabriel G. Martins",
+    "license": "MIT"
+}
