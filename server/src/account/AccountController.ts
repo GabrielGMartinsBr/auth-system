@@ -13,23 +13,23 @@ import {
 
 export class AccountController {
 
-    createAccount(body: SignUpRequest): SignUpResponse {
+    async createAccount(body: SignUpRequest): Promise<SignUpResponse> {
         throw new Error('not implemented');
     }
 
-    confirmAccount(body: ConfirmAccountRequest): ConfirmAccountResponse {
+    async confirmAccount(body: ConfirmAccountRequest): Promise<ConfirmAccountResponse> {
         throw new Error('not implemented');
     }
 
-    connectAccount(body: SignInRequest): SignInResponse {
+    async connectAccount(body: SignInRequest): Promise<SignInResponse> {
         throw new Error('not implemented');
     }
 
-    requestPasswordReset(body: PassResetRequest): PassResetResponse {
+    async requestPasswordReset(body: PassResetRequest): Promise<PassResetResponse> {
         throw new Error('not implemented');
     }
 
-    confirmPasswordReset(body: PassResetConfirmRequest): PassResetConfirmResponse {
+    async confirmPasswordReset(body: PassResetConfirmRequest): Promise<PassResetConfirmResponse> {
         throw new Error('not implemented');
     }
 
