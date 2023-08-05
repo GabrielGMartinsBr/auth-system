@@ -1,0 +1,12 @@
+{
+    "name": "@auth/common",
+    "description": "A package commonly used by the front-end and back-end",
+    "version": "0.1.0",
+    "author": "Gabriel G. Martins",
+    "license": "MIT",
+    "private": true,
+    "main": "src/index.ts",
+    "files": [
+        "src"
+    ]
+}
